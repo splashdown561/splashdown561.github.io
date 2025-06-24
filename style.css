@@ -1,0 +1,77 @@
+/* General */
+body {
+    background-color: #f4f1ec; /* Color de fondo suave */
+    color: #333333; /* Texto oscuro para mejor legibilidad */
+    font-family: "Georgia", serif; /* Fuente clásica tipo serif */
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #5a3e2b; /* Color marrón para títulos */
+    margin-bottom: 10px;
+}
+
+/* Estilo para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header .subtitle {
+    font-style: italic;
+    color: #777;
+}
+
+/* Estilo para las publicaciones */
+article {
+    background-color: #ffffff; /* Fondo blanco para cada entrada */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+article h2 {
+    font-size: 30px;
+    color: #3a2e1e; /* Color para el título de la entrada */
+}
+
+article .date {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Enlaces */
+a {
+    color: #5a3e2b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #666;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 50px;
+}
