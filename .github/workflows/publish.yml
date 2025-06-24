@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'posts/*.md'  # Monitorea las entradas de blog en formato .md
+      - '_posts/*.md'  # Monitorea las entradas de blog en formato .md
 
 jobs:
   build:
@@ -20,15 +20,15 @@ jobs:
     
     - name: Convert Markdown to HTML
       run: |
-        for post in posts/*.md; do
+        for post in _posts/*.md; do
           # Convierte cada archivo Markdown a HTML
           pandoc $post -o blog/$(basename $post .md).html
         done
     
     - name: Commit and push HTML files
       run: |
-        git config --global user.email "your-email@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email mbsebastian23@gmail.com
+        git config --global user.name splashdown561
         git add blog/*.html
         git commit -m "Nueva entrada de blog"
         git push
