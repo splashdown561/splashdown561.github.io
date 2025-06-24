@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Mi Primer Post",
+    "date": "2025-06-23",
+    "content": "<h2>Introducción</h2><p>¡Bienvenidos a mi blog!</p>"
+  },
+  {
+    "title": "Mi Segundo Post",
+    "date": "2025-06-24",
+    "content": "<h2>Contenido</h2><p>En este post hablaré sobre más proyectos.</p>"
+  }
+]
