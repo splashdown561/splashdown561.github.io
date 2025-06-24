@@ -1,2 +1,6 @@
+# _config.yml
+
+title: "Mi Blog Clásico"
+description: "Un blog donde comparto mis experiencias y proyectos."
 theme: jekyll-theme-minimal
 markdown: kramdown
